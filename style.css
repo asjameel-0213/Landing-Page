@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgba(40, 40, 50, 0.948);
+    color: white;
+    height: 400px;
+}
+
+.headers {
+    margin-bottom: 70px;
+}
+
+.headers > h3 {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 40%;
+    font-size: 1.5rem;
+}
+
+.headers > span {
+    font-size: 1.1rem;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+.info {
+    /* width: 60%; */
+    align-items: center;
+    margin-left: 50px;
+   
+}
+
+#txt {
+    color: gray;
+}
+
+#btn1, #btn2 {
+    background-color: rgb(52, 104, 168);
+    width: 100px;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#ocon {
+    display: flex;
+}
+
+.con1 {
+    margin-left: 150px;
+    padding-top: 100px;
+    width: 500px;
+    text-align: center;
+    background-color: gray;
+}
+
+main > h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 30px;
+}
+
+.items-container {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 30px;
+}
+
+.items {
+    width: 200px;
+    height: 150px;
+    border: 4px solid rgb(52, 104, 168);
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: gray;
+    height: 250px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.author {
+    font-size: 1.5rem;
+}
+
+.conclusion {
+    height: 200px;
+}
+
+.con2 {
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(52, 104, 168);
+    color: white;
+    height: 100px;
+    width: 70%;
+    border-radius: 7px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+#btn2 {
+    border: 1px solid white;
+    background-color: rgb(52, 104, 168);
+    width: 100px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+footer {
+    padding-top: 50px;
+    background-color: rgba(40, 40, 50, 0.948);
+    color: white;
+    text-align: center;
+    height: 80px;
+}
